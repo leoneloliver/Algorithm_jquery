@@ -1,5 +1,7 @@
 # Algorithm jQuery offset
 
-Click to change the objetc position using offset.
+Click to change the objetc position using offset from jQuery.
 
-http://onclickmidia.net/offset/
+Exemple [Here](http://onclickmidia.net/offset/) 
+
+
