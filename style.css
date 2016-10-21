@@ -1,0 +1,33 @@
+.container{
+  border: #000 1px solid;
+  width: 300px;
+  height: 300px;
+}
+.ball{
+  position: relative;
+  width:20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+  top: 46%;
+  left: 46%;
+}
+.target{
+  position: relative;
+  top: 270px;
+  left: 290px;
+  width: 20px;
+  height: 20px;
+  background: green;
+}
+.target-top{
+  position: relative;
+  top: -48px;
+  left: 290px;
+  width: 20px;
+  height: 20px;
+  background: blue;
+}
+body{
+  padding:30px
+}
