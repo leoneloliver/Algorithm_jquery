@@ -24,17 +24,21 @@ $('#right').on('click', function(){
 
 $('.ball').on('click', function(){
   alert("Top position is: "+$(this).offset().top+" and Left position is: "+$(this).offset().left);
-  $(this).css({"top":"46%","left":"46%"});
+  reposition();
   win();
 });
 
 function win(){
   if($(".ball").offset().top==327 && $(".ball").offset().left == 327 ){
     alert("you win!");
-    $(".ball").css({"top":"46%","left":"46%"});
+    reposition();
   }
   if($(".ball").offset().top==27 && $(".ball").offset().left == 327 ){
     alert("you win!");
-    $(".ball").css({"top":"46%","left":"46%"});
+    reposition();
   }
+}
+
+function reposition(){
+  $(".ball").css({"top":"46%","left":"46%"});
 }
